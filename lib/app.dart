@@ -8,6 +8,7 @@ import 'input/assinment2.dart';
 import 'input/assinment222.dart';
 import 'input/gridView.dart';
 import 'input/inputdata.dart';
+import 'input/livetest2.dart';
 import 'input/login.dart';
 import 'input/themTest.dart';
 
@@ -57,7 +58,8 @@ class MyApp extends StatelessWidget {
       ),
       darkTheme: ThemeData.light(),
       title: 'shahidur new project',
-      home: CardViewAssinment(),
+      //home: CardViewAssinment(),
+      home: Contactlist(),
     );
   }
 }
